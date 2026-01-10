@@ -1,1 +1,9 @@
+.venv
 .idea/
+**/__pycache__/
+**/reports/
+python_api_automation/config/__pycache__/
+python_api_automation/core/__pycache__/
+python_api_automation/tests/__pycache__/
+python_api_automation/tests/auth/__pycache__/
+python_api_automation/reports/
