@@ -33,7 +33,7 @@ The API ignores the username field requirement.
 Causes confusion for API consumers and breaks contract reliability.    
  
 ---   
-2. `Endpoint Abuse Leading to Untracked User Creation:` If we change the method into `GET`, it returns a list of colors.  
+2. `Endpoint Abuse Leading to Data Expose:` If we change the method into `GET`, it returns a list of colors.  
 ![](../Screenshots/login_api/data_exposure.png)
 `Expected:`   
 - If the data are necessary/public, they should be clearly documented  

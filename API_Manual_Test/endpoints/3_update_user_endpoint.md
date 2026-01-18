@@ -4,15 +4,15 @@
 
 ### Inconsistent Behaviours
 
-1. `Lack of Data Type Validation`       
-The `update` endpoint accepts any valid JSON payload without validating data types.   
+1. `Lack of Request Body Validation`       
+The `update` endpoint accepts an empty JSON payload without validating data types.   
 
 `Expected:`      
 - Field values should be validated according to data type.    
-- Invalid data types should be rejected with an `HTTP 400` response.   
+- Empty JSON should be rejected with an `HTTP 400` response.   
 
 `Actual:`     
-- Update succeeds even with invalid data types.   
+- Update succeeds even with empty JSON request body.   
 
 `Impact:`     
 - May lead to data inconsistency and corruption.   
