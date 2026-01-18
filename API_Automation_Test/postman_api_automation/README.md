@@ -22,4 +22,4 @@ Endpoint: `GET /api/users?page=X`
 **Automation Scope**  
 - Validate the response code is `HTTP 200`  
 - Response time should be less than `100ms`  
-- Basic contact validation that `page`, `per_page`, `total`, etc. keys are present in response JSON body  
+- Basic contact validation that `page`, `per_page`, `total`, etc. properties are present in response JSON body  
