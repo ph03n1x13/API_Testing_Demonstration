@@ -34,14 +34,14 @@ Breaks API contract and may introduce data integrity issues.
 
 ---   
 
-2.`Duplicate User Creation with Same Email: ` Multiple users can be created by the same `email` that returns the same `id` no.    
+2.`Duplicate User Creation with Same Email: ` Multiple users can be created by the same `email` that returns the same `id` number.    
 
-`Expected:`  
-The API endpoint should reject duplicate user registrations.
-`Actual:`  
-Duplicate registrations succeed without validation.
-`Impact:`  
-Can lead to identity conflicts and inconsistent user management.  
+`Expected:`    
+The API endpoint should reject duplicate user registrations.   
+`Actual:`    
+Duplicate registrations succeed without validation.   
+`Impact:`    
+Can lead to identity conflicts and inconsistent user management.   
 
 ---  
 
